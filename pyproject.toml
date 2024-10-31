@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "3d-object-detection"
+version = "0.1.0"
+description = ""
+authors = ["skip"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+huggingface = "^0.0.1"
+torch = "2.2.2"
+tqdm = "^4.66.6"
+numpy = "<2"
+
+
+[tool.poetry.group.dev.dependencies]
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
